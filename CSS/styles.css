@@ -1,0 +1,366 @@
+body{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #logo{
+    width: 80px;
+    height:60px ;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    align-items: center;
+    position: fixed;
+    width: 90vw;
+    z-index: 100;
+    color: white;
+    
+  }
+
+  #nav-links{
+    display: flex;
+    column-gap: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+  }
+
+  #hero{
+    background-image: url(../assets/img/rice-and-kontomire-stew.jpeg) ;
+    background-size: cover;
+  }
+
+  #hero-overlay{
+    background-color:rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    z-index: 1;
+  }
+
+  #subtext-one{
+    font-size: 60px;
+  }
+
+#subtext-two{
+  font-size: 80px;
+}
+
+.menu-button{
+  color: black;
+  background-color: white;
+  border: 0;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+button:hover{
+  background-color: blue;
+}
+
+#about{
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  align-items: center;
+  padding: 50px;
+  background-color: #F4F1EB;
+  background-size: cover;
+}
+
+#about-image{
+  height: 40%;
+  width: 40%;
+  padding: 0 0 0 0px;
+  box-sizing: border-box;
+  border-radius: 40px;
+}
+
+.sub-header{
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-header {
+  align-items: center;
+  text-align: center;
+}
+  
+.sub-header :nth-child(1) {
+  font-size: 30px;
+  color: blue;
+}
+
+.sub-header :nth-child(2) {
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+#about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#about-p {
+  padding: 0 100px;
+}
+
+#about-link a:hover{
+  color: blue;
+}
+
+#about-link a{
+  text-decoration: none;
+  letter-spacing: 1;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+#discover-section {
+  background-image: url(../assets/img/table-5356682_1920.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.discover {
+  display: grid;
+  background-color: 0 0 0 rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+#discover-text{
+  font-size: 30px;
+  color:blue;
+  opacity: 1;
+}
+
+#subtext-two{
+  font-size: 50px;
+  opacity: 1;
+}
+
+#menu{
+  background-color: #f5f2ec;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  width: 100%;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  width: 80vw;
+}
+
+.grid-container img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 10px;
+}
+
+
+.group1{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 520px;
+}
+
+.group2{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 250px;
+}
+
+.group3{
+  height: 250px;
+}
+
+.learnmore-container{
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.textunder1 {
+}
+
+.textunder1 h1{
+letter-spacing: 3px;
+font-size: 20px;
+}
+
+.textunder2 h1{
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.textunder3 {
+  margin-right: 60px;
+}
+
+.textunder3 h1{
+  letter-spacing: 3px;
+  font-size: 20px;
+  }
+
+#innerview{
+width: 300px;
+height: 200px;
+border-radius: 10px;
+}
+
+#ourfood{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  font-size: 30px;
+  }
+
+  #ourwine{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    }
+
+  #learnmore{
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #video-sec{
+    width: 100%;
+    height: 80%;
+    position: relative;
+  }
+
+  #video{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+  }
+
+  #video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.sub-headervideo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-headervideo .poppins-bold{
+  color: white;
+  font-size: 60px;
+}
+
+.sub-headervideo .courgette-regular{
+  font-size: 30px;
+  color: blue;
+}
+
+#reservation{
+  background-color: #EFEFEF;
+  padding: 120px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#reservation img{
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+#input-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.form-item{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.sub-header1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-header1 .courgette-regular{
+  font-size: 30px;
+  color: blue;
+}
+
+.sub-header1 .poppins-bold{
+  font-size: 50px;
+}
+
+#input-grid input{
+  width: 260px;
+  height: 35px;
+  border-radius: 10px;
+  border-color: #d9d9d9;
+}
